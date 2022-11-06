@@ -1,0 +1,134 @@
+body {
+  font-family: sans-serif;
+  margin: 0 auto;
+  padding: 25px;
+  max-width: 400px;
+  min-width: 400px;
+  background-color: #b2dad6;
+  text-align: center;
+}
+#root {
+  background-color: rgb(248, 244, 244);
+  padding: 20px;
+  margin-top: 100px;
+}
+.heading {
+  font-size: 18px;
+  color: #2d3436;
+  margin: 20px 20px 10px 0px;
+}
+.heading-logo {
+  display: flex;
+  justify-content: space-between;
+}
+.altschool-logo {
+  width: 60px;
+  height: 50px;
+  margin-top: 15px;
+}
+.home-container {
+  text-align: left;
+}
+.welcome-img {
+  display: flex;
+  justify-content: space-between;
+  background-color: #d0edea;
+  padding: 5px 10px;
+  margin-bottom: 32px;
+  color: #324442;
+}
+.project-briefContainer {
+  width: 100%;
+}
+.project-brief {
+  font-size: 14px;
+}
+.rasheed-img {
+  border-radius: 50px;
+  margin-right: 10px;
+  height: 100px;
+}
+.dev-details {
+  padding-left: 10px;
+  color: #1f3b38;
+  font-size: 14px;
+  font-weight: 500;
+}
+.description-page {
+  margin-bottom: 70px;
+}
+.link-container {
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: space-between;
+}
+.error-button,
+.home-button,
+.counter-project {
+  background-color: #a3c3c1;
+  margin: 1px;
+  padding: 8px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.about-button2,
+.home-button2,
+.counter-project2 {
+  background-color: green;
+  margin: 5px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+.container {
+  background-color: rgb(232, 230, 230);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.counting-heading {
+  color: green;
+  font-size: 24px;
+}
+.decrease,
+.increase,
+.reset {
+  background-color: #1a7e76;
+  width: 100px;
+  padding: 10px;
+  margin: 30px 10px 30px 10px;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.increase:hover,
+.decrease:hover,
+.reset:hover,
+.values:hover {
+  background-color: azure;
+  color: #1a7e76;
+}
+.setvalue-cont {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 10px 0px 10px;
+}
+input {
+  border: 2px solid #1a7e76;
+  height: 40px;
+  width: 180px;
+  color: #1a7e76;
+}
+.values {
+  background-color: #1a7e76;
+  width: 150px;
+  padding: 10px;
+  margin: 0px 0px 0px 30px;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}

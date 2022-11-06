@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/CountingApp/static/js/main.f1bdf5f4.js",
+    "index.html": "/CountingApp/index.html",
+    "main.f1bdf5f4.js.map": "/CountingApp/static/js/main.f1bdf5f4.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.f1bdf5f4.js"
+  ]
+}
